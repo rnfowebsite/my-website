@@ -1,0 +1,115 @@
+* {
+	Margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	box-sizing:  border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+}
+header {
+	align-items: center;
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+	background-color: #BCC2C6; 
+}
+header nav a {
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	color: #000000;
+	display: inline-block;
+}
+Nav a:hover {
+	transition: 0.5 ease;
+	color: teal;
+}
+.logo img {
+	width: 20%;
+	height: 20%;
+}
+.logo {
+	margin-left: 50px;
+}
+.hero {
+	background-image: url(rawrw.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	height: 350px;
+	width:100%;
+	padding: 80px 30px;
+    text-align: center;
+}
+.hero h1, h2 {
+	padding: 20px;
+	color: #15342d;
+	font-family: Bricolage Grotesque;
+	
+}
+.content p  {
+	text-align:justify;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px;
+}
+.content {
+	padding: 20px;
+	display: flex;
+	gap: 15px;
+	width: 100%;
+}
+.column {
+	background-color: #00555A;
+	color: white;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 2;
+}
+footer {
+	display: flex;
+    align-items: center;
+	justify-content: center;
+    padding: 15px;
+    background: #021019;
+    color: white;
+    margin-top: 0px;
+}
+footer div {
+	margin: auto 10px auto 10px;
+}
+#ttsBtn {
+	border: 2px solid #021019;
+    background: #2EB5B7;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+	margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#ttsBtn:hover {
+    opacity: 0.85;
+}
+.login-button {
+    padding: 10px 10px;
+    background: #2EB5B7;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background: #e3e3e3;
+}
+.bg {
+		background-image: linear-gradient( to right, #2EB5B7, #BCC2C6);
+}

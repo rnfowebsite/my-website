@@ -1,0 +1,87 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+.contact {
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(to bottom, #2EB5B7, #BCC2C6, #021019);
+} 
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+}
+.container .contactinfo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container .contactinfo .box {
+	position: relative;
+	padding: 20px 0px;
+	display: flex;
+}
+.container .contactinfo .box .icon {
+	min-width: 60px;
+	height: 60px;
+
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.container .contactinfo .box .text {
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+
+	flex-direction: column;
+}
+.contactform {
+	width: 40%;
+	padding: 40px;
+	background:#fff;
+	border-radius: 10px;
+}
+.contactform h2 {
+	font-size: 30px;
+	color: #333;
+	font-weight: 10px;
+	text-align: center;
+}
+.contactform .InputBox {
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+.contactform .InputBox Input{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+}
+.contactform .InputBox button{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+}
+
+
